@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
 import LogoR from '../../assets/images/logo.svg'
@@ -19,15 +19,15 @@ const Home = () => {
     }
   })
   return (
-    <>
+    <Fragment>
       <div className="container home-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['H', 'i', '', 'I', '', '`m', '', 'E', 'd', 'o', '']}
-            />
-
+            >{"\n"}</AnimatedLetters>
+            
             <img src={LogoR} alt="developer" className="developer-logo" />
             <AnimatedLetters
               letterClass={letterClass}
@@ -42,7 +42,7 @@ const Home = () => {
       </div>
       <Avatar />
       <Loader type="pacman" />
-    </>
+    </Fragment>
   )
 }
 
