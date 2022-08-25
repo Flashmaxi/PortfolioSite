@@ -17,7 +17,7 @@
     font-weight: 400;
 
     &:before {
-      content: '<Who>';
+      content: '<>';
       font-family: 'Satoshi-Variable';
       color: #91e0ce;
       font-size: 18px;
@@ -28,7 +28,7 @@
     }
 
     &:after {
-      content: '<Am I/>';
+      content: '</>';
       font-family: 'Satoshi-Variable';
       color: #91e0ce;
       font-size: 18px;
