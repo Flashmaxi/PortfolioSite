@@ -28,10 +28,6 @@ const Home = () => {
               strArray={['H', 'i', '', 'I', '', '`m', '', 'E', 'd', 'o', '']}
             />
 
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={['I', '', 'a', 'm', '']}
-            />
             <img src={LogoR} alt="developer" className="developer-logo" />
             <AnimatedLetters
               letterClass={letterClass}
@@ -45,7 +41,7 @@ const Home = () => {
         </div>
       </div>
       <Avatar />
-      <Loader type='pacman'/>
+      <Loader type="pacman" />
     </>
   )
 }
