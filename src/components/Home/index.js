@@ -27,7 +27,9 @@ const Home = () => {
               letterClass={letterClass}
               strArray={['H', 'i', '', 'I', '', '`m', '', 'E', 'd', 'o', '']}
             >{"\n"}</AnimatedLetters>
-            
+            </h1>
+            <h1>
+
             <img src={LogoR} alt="developer" className="developer-logo" />
             <AnimatedLetters
               letterClass={letterClass}
