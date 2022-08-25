@@ -1,0 +1,30 @@
+$primary-color: #91e0ce;
+
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+
+@font-face {
+  font-family: 'Satoshi Variable';
+  src: url('./assets/fonts/Satoshi-Variable.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input,
+textarea {
+  font-family: 'Satoshi Variable';
+}
+
+.loader-active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}

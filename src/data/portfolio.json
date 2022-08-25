@@ -1,0 +1,22 @@
+{
+  "portfolio": [
+      {
+          "cover": "/portfolio/1/one.png",
+          "title": "Auto Centar Tomin",
+          "description": "Small company site completed with: HTML5, Tailwind",
+          "url": "http://autocentartomin.com"
+      },
+      {
+          "cover": "/portfolio/1/one.png",
+          "title": "GGWP",
+          "description": "React, JSX, Tailwind, Jest",
+          "url": "http://google.com"
+      },
+      {
+          "cover": "/portfolio/1/one.png",
+          "title": "GGWP",
+          "description": "React, JSX, Tailwind, Jest",
+          "url": "http://google.com"
+      }
+  ]
+}
